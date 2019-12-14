@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
+import {Home} from './components/Home';
+import {
+  HashRouter as Router,
+  Route,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-    Hello
-    </div>
+    <Router>
+      <Route exact path='/' component={Home} />
+    </Router>
   );
 }
 

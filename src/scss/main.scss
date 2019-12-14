@@ -3,8 +3,66 @@
 @import './settings/fonts';
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Open+Sans:300,400,600,700,800&display=swap');
 
+html {
+  font-size: 1vw
+}
 
 body {
   font-family: $font-base;
-  background-color: pink;
+  background-color: $color-background-main;
+}
+
+.header__container {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  color: $color-font-main
+}
+
+.header__container__elements {
+  width: 40vw;
+  height: 9.9vh;
+  margin: 3.8vh 7.4vw 0 0;
+}
+
+.header__container__elements__log,
+.header__container__elements__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__container__elements__log {
+  justify-content: flex-end;
+  height: 4vh;
+
+  a {
+    padding: 1vh 1vw;
+    font-size: .9rem;
+
+    &:link {
+      color: $color-font-main;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $color-font-main;
+      text-decoration: none;
+    }
+
+    &:active {
+      color: $color-font-main;
+      text-decoration: none;
+      border: 1px solid $color-focus;
+    }
+  }
+
+}
+
+.header__container__elements__nav {
+  justify-content: flex-end;
+  margin: 1.5vh 0;
+
+  div {
+    padding-left: 2vw;
+  }
 }
