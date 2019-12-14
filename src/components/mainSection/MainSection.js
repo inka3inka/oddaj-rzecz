@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 export function MainSection() {
   return (
@@ -12,8 +13,8 @@ export function MainSection() {
           <p>Oddaj niechciane rzeczy w zaufane ręce</p>
         </div>
         <div className="mainSection__container__links">
-          <div>oddaj rzeczy</div>
-          <div>zorganizuj zbiórkę</div>
+          <div><Link to="/logowanie">oddaj rzeczy</Link></div>
+          <div><Link to="/logowanie">zorganizuj zbiórkę</Link></div>
         </div>
       </div>
     </div>

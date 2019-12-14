@@ -58,7 +58,6 @@ body {
       border: 1px solid $color-focus;
     }
   }
-
 }
 
 .header__container__elements__nav {
@@ -150,5 +149,24 @@ body {
     justify-content: center;
     text-align: center;
     line-height: 2.5rem;
+
+    a {
+
+      &:link {
+        color: $color-font-main;
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: $color-font-main;
+        text-decoration: none;
+      }
+
+      &:active {
+        color: $color-font-main;
+        text-decoration: none;
+        border: 1px solid $color-focus;
+      }
+    }
   }
 }
