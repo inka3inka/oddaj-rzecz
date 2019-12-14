@@ -12,17 +12,20 @@ body {
   background-color: $color-background-main;
 }
 
+//Header
+
 .header__container {
-  width: 100vw;
   display: flex;
   justify-content: flex-end;
-  color: $color-font-main
+  color: $color-font-main;
+  margin-right: 7vw;
+  //position: fixed;
 }
 
 .header__container__elements {
-  width: 40vw;
+  width: 50vw;
   height: 9.9vh;
-  margin: 3.8vh 7.4vw 0 0;
+  margin: 5vh 0 0 0;
 }
 
 .header__container__elements__log,
@@ -37,7 +40,7 @@ body {
 
   a {
     padding: 1vh 1vw;
-    font-size: .9rem;
+    font-size: .7rem;
 
     &:link {
       color: $color-font-main;
@@ -55,7 +58,6 @@ body {
       border: 1px solid $color-focus;
     }
   }
-
 }
 
 .header__container__elements__nav {
@@ -63,6 +65,108 @@ body {
   margin: 1.5vh 0;
 
   div {
-    padding-left: 2vw;
+    padding-left: 2.7vw;
+  }
+}
+
+//Main section
+
+.mainSection__container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 7vw;
+}
+
+.mainSection__container__element__picture {
+  width: 50%;
+  height: 100%;
+}
+
+.mainSection__picture {
+  width: 79%;
+  height: 95vh;
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -14vh;
+  left: -28%;
+}
+
+.mainSection__container__element__text {
+  width: 50%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-font-main;
+  margin-right: 1vw;
+}
+
+.mainSection__container__par {
+  width: 82%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 9vh;
+  position: relative;
+
+  p {
+    padding: .8vh 0;
+  }
+
+  &::after {
+    content: '';
+    background: url("../assets/Decoration.svg") no-repeat;
+    width: 20vw;
+    height: 4vh;
+    position: absolute;
+    top: 13vh;
+    left: 32%;
+  }
+}
+
+.mainSection__container__links {
+  display: flex;
+  //flex-direction: row;
+  justify-content: space-around;
+
+  div {
+    border: 1px solid $color-font-main;
+    width: 11vw;
+    height: 10vh;
+    font-size: 1.9rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 2.3vh 1.2vw;
+    padding: 1vh 2.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.5rem;
+
+    a {
+
+      &:link {
+        color: $color-font-main;
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: $color-font-main;
+        text-decoration: none;
+      }
+
+      &:active {
+        color: $color-font-main;
+        text-decoration: none;
+        border: 1px solid $color-focus;
+      }
+    }
   }
 }
