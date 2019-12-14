@@ -12,17 +12,20 @@ body {
   background-color: $color-background-main;
 }
 
+//Header
+
 .header__container {
-  width: 100vw;
   display: flex;
   justify-content: flex-end;
-  color: $color-font-main
+  color: $color-font-main;
+  margin-right: 8vw;
+  //position: fixed;
 }
 
 .header__container__elements {
   width: 40vw;
   height: 9.9vh;
-  margin: 3.8vh 7.4vw 0 0;
+  margin: 3.8vh 0 0 0;
 }
 
 .header__container__elements__log,
@@ -64,5 +67,75 @@ body {
 
   div {
     padding-left: 2vw;
+  }
+}
+
+//Main section
+
+.mainSection__container {
+  height: 80vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-right: 8vw;
+}
+
+.mainSection__container__element__picture {
+  width: 50%;
+  height: 100%;
+}
+
+.mainSection__picture {
+  width: 70%;
+  height: 90vh;
+  background-image: url("../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -15vh;
+  left: -25%;
+}
+
+.mainSection__container__element__text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-font-main
+}
+
+.mainSection__container__par {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+
+  p {
+    padding: 1vh 0;
+  }
+}
+
+.mainSection__container__links {
+  display: flex;
+  //flex-direction: row;
+  justify-content: space-around;
+
+  div {
+    border: 1px solid $color-font-main;
+    width: 11vw;
+    height: 10vh;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 2.3vh 1vw;
+    padding: 1vh 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
