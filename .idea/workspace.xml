@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/3ColumnsBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnsContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,17 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="153">
+              <caret line="186" column="19" lean-forward="true" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -74,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnsContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -84,13 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/Header.js">
+        <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -100,18 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/components/header/HeaderLog.js" />
         <option value="$PROJECT_DIR$/src/components/mainSection/MainSection.ts" />
         <option value="$PROJECT_DIR$/src/components/mainSection/MainSection.js" />
-        <option value="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnsContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
       </list>
     </option>
@@ -240,16 +213,16 @@
       <workItem from="1576358495598" duration="5066000" />
       <workItem from="1576363661888" duration="428000" />
       <workItem from="1576364113752" duration="1045000" />
-      <workItem from="1576365181363" duration="3118000" />
+      <workItem from="1576365181363" duration="3178000" />
+      <workItem from="1576406689716" duration="1969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23182000" />
+    <option name="totallyTimeSpent" value="25211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -333,27 +306,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/settings/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/settings/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -367,17 +333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js">
+    <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -386,18 +345,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnsContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/settings/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="186" column="19" lean-forward="true" selection-start-line="186" selection-start-column="19" selection-end-line="186" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -72,7 +72,7 @@ body {
 //Main section
 
 .mainSection__container {
-  height: 90vh;
+  height: 81vh;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -175,6 +175,38 @@ body {
 
 .columns__container {
   width: 100%;
-  height: 35vh;
+  height: 33vh;
   background-image: url("../assets/3ColumnsBackground.png");
+  display: flex;
+  flex-direction: row;
+}
+
+.columns__element {
+  //border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6.5vw;
+}
+
+.columns__element--number {
+  color: $color-font-main;
+  font-size: 4.5rem;
+  font-weight: lighter;
+}
+
+.columns__element--title {
+  color: $color-font-main;
+  text-transform: uppercase;
+  font-size: .9rem;
+  margin: 2vh 0;
+}
+
+.columns__element--text {
+  text-align: center;
+  color: $color-font-main;
+  font-size: .8rem;
+  line-height: 1.4rem;
+  font-weight: lighter;
 }
