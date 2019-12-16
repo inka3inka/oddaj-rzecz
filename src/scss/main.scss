@@ -1,6 +1,7 @@
 @import '~reset.css';
 @import './settings/colors';
 @import './settings/fonts';
+@import './settings/mixins';
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Open+Sans:300,400,600,700,800&display=swap');
 
 html {
@@ -41,22 +42,7 @@ body {
   a {
     padding: 1vh 1vw;
     font-size: .7rem;
-
-    &:link {
-      color: $color-font-main;
-      text-decoration: none;
-    }
-
-    &:visited {
-      color: $color-font-main;
-      text-decoration: none;
-    }
-
-    &:active {
-      color: $color-font-main;
-      text-decoration: none;
-      border: 1px solid $color-focus;
-    }
+    @include linkStyle;
   }
 }
 
@@ -120,11 +106,7 @@ body {
   }
 
   &::after {
-    content: '';
-    background: url("../assets/Decoration.svg") no-repeat;
-    width: 20vw;
-    height: 4vh;
-    position: absolute;
+    @include decoration;
     top: 13vh;
     left: 32%;
   }
@@ -136,37 +118,10 @@ body {
   justify-content: space-around;
 
   div {
-    border: 1px solid $color-font-main;
-    width: 11vw;
-    height: 10vh;
-    font-size: 1.9rem;
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin: 2.3vh 1.2vw;
-    padding: 1vh 2.8vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    line-height: 2.5rem;
+    @include giveThings;
 
     a {
-
-      &:link {
-        color: $color-font-main;
-        text-decoration: none;
-      }
-
-      &:visited {
-        color: $color-font-main;
-        text-decoration: none;
-      }
-
-      &:active {
-        color: $color-font-main;
-        text-decoration: none;
-        border: 1px solid $color-focus;
-      }
+      @include linkStyle;
     }
   }
 }
@@ -182,7 +137,6 @@ body {
 }
 
 .columns__element {
-  //border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,9 +158,112 @@ body {
 }
 
 .columns__element--text {
+  font-family: $font-alt;
   text-align: center;
   color: $color-font-main;
   font-size: .8rem;
   line-height: 1.4rem;
   font-weight: lighter;
 }
+
+//4 steps Section
+
+.fourSteps__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-font-main;
+}
+
+.fourSteps__element--standard {
+  width: 30vw;
+  height: 20vh;
+  position: relative;
+
+  p {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 27%;
+
+    &::after {
+      @include decoration;
+      top: 170%;
+      left: 25%;
+    }
+  }
+
+  div {
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    @include giveThings;
+
+    a {
+      @include linkStyle;
+    }
+  }
+}
+
+.fourSteps__element--higher {
+  width: 100%;
+  height: 32vh;
+  border: 1px solid black;
+  background-color: $color-background-light;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fourSteps__tile {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3vw;
+
+  .fourSteps__tile--image {
+    width: 5vw;
+    height: 10vh;
+    background-size: contain;
+    background-color: black;
+    //background-repeat: no-repeat;
+  }
+
+  div {
+
+    height: 10vh;
+    text-align: center;
+
+    .fourSteps__tile--title {
+      height: 30%;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1vh;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 40%;
+        height: 1px;
+        background-color: $color-font-main;
+        position: absolute;
+        bottom: -30%;
+        left: 30%;
+      }
+    }
+
+    .fourSteps__tile--text {
+      width: 80%;
+      margin: 2vh auto;
+      height: 50%;
+      font-size: .85rem;
+      text-align: center;
+    }
+  }
+}
+
