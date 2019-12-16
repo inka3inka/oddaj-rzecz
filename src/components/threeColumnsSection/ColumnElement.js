@@ -10,5 +10,3 @@ export function ColumnElement(props) {
 
   )
 }
-
-//Lorem ipsum dolor sit amet, consectetur adipisc Pellentseque vel enim a elit viverra elementuma. Alquam erat volutpat.

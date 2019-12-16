@@ -1,0 +1,42 @@
+@mixin giveThings {
+  border: 1px solid $color-font-log;
+  width: 11vw;
+  height: 10vh;
+  font-size: 1.9rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 2.1vh 1.2vw;
+  padding: 1vh 2.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 2.3rem;
+}
+
+@mixin decoration {
+  content: '';
+  background: url("../../assets/Decoration.svg") no-repeat;
+  width: 20vw;
+  height: 4vh;
+  position: absolute;
+}
+
+@mixin linkStyle {
+
+  &:link {
+    color: $color-font-main;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $color-font-main;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $color-font-main;
+    text-decoration: none;
+    border: 1px solid $color-focus;
+  }
+}
