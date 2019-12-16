@@ -74,7 +74,7 @@ body {
   width: 79%;
   height: 95vh;
   background-image: url("../assets/Home-Hero-Image.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
   top: -14vh;
@@ -108,7 +108,6 @@ body {
   &::after {
     @include decoration;
     top: 13vh;
-    left: 32%;
   }
 }
 
@@ -177,7 +176,7 @@ body {
 
 .fourSteps__element--standard {
   width: 30vw;
-  height: 20vh;
+  height: 23vh;
   position: relative;
 
   p {
@@ -208,7 +207,7 @@ body {
 
 .fourSteps__element--higher {
   width: 100%;
-  height: 32vh;
+  height: 37vh;
   border: 1px solid black;
   background-color: $color-background-light;
   display: flex;
@@ -228,7 +227,7 @@ body {
     width: 5vw;
     height: 10vh;
     background-size: contain;
-    background-color: black;
+    //background-color: black;
     //background-repeat: no-repeat;
   }
 
@@ -252,7 +251,7 @@ body {
         height: 1px;
         background-color: $color-font-main;
         position: absolute;
-        bottom: -30%;
+        bottom: -33%;
         left: 30%;
       }
     }
@@ -266,4 +265,73 @@ body {
     }
   }
 }
+
+//About Us Section
+
+.aboutUs__container {
+  width: 100%;
+  height: 80vh;
+  background-color: $color-background-light;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutUs__element--text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.element--text--header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 17vh;
+
+  &::after {
+    @include decoration;
+    top: 6vh;
+  }
+}
+
+.element--text--description {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  top: 30vh;
+
+  &::after {
+    content: '';
+    width: 15vw;
+    height: 20vh;
+    background-image: url('../assets/Signature.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: absolute;
+    top: 25vh;
+    left: 70%;
+  }
+}
+
+.aboutUs__element--picture {
+  width: 50%;
+  height: 100%;
+  background-image: url('../assets/People.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 

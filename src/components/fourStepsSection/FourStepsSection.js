@@ -20,7 +20,7 @@ export function FourStepsSection() {
           text="skorzystaj z worków na śmieci"
         />
         <FourStepsTile
-          image="url(../assets/Icon-3.svg)"
+          image="../../assets/Icon-3.svg"
           title="Zdecyduj komu chcesz pomóc"
           text="wybierz zaufane miejsce"
         />
