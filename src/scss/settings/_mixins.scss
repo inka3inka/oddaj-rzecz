@@ -16,8 +16,10 @@
 
 @mixin decoration {
   content: '';
-  background: url("../../assets/Decoration.svg") no-repeat;
-  width: 20vw;
+  background-image: url("../../assets/Decoration.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14vw;
   height: 4vh;
   position: absolute;
 }
