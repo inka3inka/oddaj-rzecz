@@ -29,7 +29,7 @@ export class HelpFundations extends Component {
         needs: ['ubrania', 'jedzenie', 'sprzęt AGD', 'meble', 'zabawki']
       },
       {
-        name: "Dbam o zdrowie",
+        name: "Pomagamy!",
         task: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
         needs: ['ubrania', 'jedzenie', 'sprzęt AGD', 'meble', 'zabawki']
       },
@@ -51,13 +51,13 @@ export class HelpFundations extends Component {
           <div>
             {this.state.fundations.map(element => {
               return (
-                <>
-                  <div key={element.name}>
+                <li key={element.name}>
+                  <div>
                     <div>Fundacja {element.name}</div>
                     <div>Cel i misja: {element.task}</div>
                   </div>
                   <div>{element.needs}</div>
-                </>
+                </li>
               )
             })}
           </div>

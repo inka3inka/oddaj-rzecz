@@ -31,13 +31,13 @@ export class HelpCollectors extends Component {
           <div>
             {this.state.fundations.map(element => {
               return (
-                <>
-                  <div key={element.name}>
+                <li key={element.name}>
+                  <div>
                     <div>Zbiórka {element.name}</div>
                     <div>Cel i misja: {element.task}</div>
                   </div>
                   <div>{element.needs}</div>
-                </>
+                </li>
               )
             })}
           </div>

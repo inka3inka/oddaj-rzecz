@@ -19,15 +19,29 @@ export class HelpSection extends Component {
     this.setState({
       toShow: 'organizations'
     })
-  }
+  };
 
   showCollectors = () => {
     this.setState({
       toShow: 'collectors'
     })
-  }
+  };
 
   render() {
+
+    let elementToShow;
+
+    if (this.state.toShow === 'fundations') {
+      elementToShow = <HelpFundations />
+    }
+    else if (this.state.toShow === 'organizations') {
+      elementToShow = <HelpOrganizations />
+    }
+    else if (this.state.toShow === 'collectors') {
+      elementToShow = <HelpCollectors />
+    }
+
+
     return (
       <div className="helpSection__container">
         <div className="helpSection__options">
@@ -41,17 +55,9 @@ export class HelpSection extends Component {
           </div>
         </div>
         <div className="helpSheet__container">
-          {() => {
-              if (this.state.toShow === 'fundations') {
-                return (<HelpFundations />)
-              }
-              else if (this.state.toShow === 'organizations') {
-                return (<HelpOrganizations />)
-              }
-              else if (this.state.toShow === 'collectors')
-                return (<HelpCollectors />)
-            }
-          }
+          <ul>
+          {elementToShow}
+          </ul>
         </div>
       </div>
     )
