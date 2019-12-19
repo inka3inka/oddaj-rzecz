@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
+import {HelpSheet} from "./HelpSheet";
 
 export class HelpOrganizations extends Component {
   state = {
+    class: 'Organizacja',
     fundations: [
       {
         name: "Phasellus aliquet",
@@ -34,31 +36,12 @@ export class HelpOrganizations extends Component {
         needs: ['arcu', 'molestie', 'lobortis']
       }
     ],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque, enim vel rutrum pretium, eros sem viverra metus, id congue nisi est eu turpis. Vestibulum sit amet libero eu ante malesuada dapibus at quis nulla'
   }
 
   render() {
     return(
-      <div>
-        <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque, enim vel rutrum pretium, eros sem viverra metus, id congue nisi est eu turpis. Vestibulum sit amet libero eu ante malesuada dapibus at quis nulla.
-        </div>
-        <div>
-          <div>
-            {this.state.fundations.map(element => {
-              return (
-                <li key={element.name}>
-                  <div>
-                    <div>Organizacja {element.name}</div>
-                    <div>Cel i misja: {element.task}</div>
-                  </div>
-                  <div>{element.needs}</div>
-                </li>
-              )
-            })}
-          </div>
-        </div>
-        <div>1</div>
-      </div>
+      <HelpSheet description={this.state.description} organization={this.state.fundations} class={this.state.class}/>
     )
   }
 }

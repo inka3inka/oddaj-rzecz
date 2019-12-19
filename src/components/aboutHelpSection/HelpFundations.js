@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
+import {HelpSheet} from "./HelpSheet";
 
 export class HelpFundations extends Component {
   state = {
+    class: 'Fundacja',
     fundations: [
       {
         name: "Dbam o zdrowie",
@@ -39,31 +41,12 @@ export class HelpFundations extends Component {
         needs: ['ubrania', 'jedzenie', 'sprzęt AGD', 'meble', 'zabawki']
       }
     ],
+    description: 'W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują'
   }
 
   render() {
     return(
-      <div>
-        <div>
-          W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
-        </div>
-        <div>
-          <div>
-            {this.state.fundations.map(element => {
-              return (
-                <li key={element.name}>
-                  <div>
-                    <div>Fundacja {element.name}</div>
-                    <div>Cel i misja: {element.task}</div>
-                  </div>
-                  <div>{element.needs}</div>
-                </li>
-              )
-            })}
-          </div>
-        </div>
-        <div>1</div>
-      </div>
+      <HelpSheet description={this.state.description} organization={this.state.fundations} class={this.state.class}/>
     )
   }
 }

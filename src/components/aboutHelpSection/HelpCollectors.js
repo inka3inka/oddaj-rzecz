@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
+import {HelpSheet} from "./HelpSheet";
 
 export class HelpCollectors extends Component {
   state = {
+    class: 'Zbiórka',
     fundations: [
       {
         name: "Macaroon gummies",
@@ -18,32 +20,13 @@ export class HelpCollectors extends Component {
         task: "Tiramisu soufflé dragée icing jelly-o tootsie roll. Lemon drops pastry halvah",
         needs: ['Chupa', 'chups', 'danish', 'jelly', 'beans', 'caramels']
       }
-    ]
+    ],
+    description: 'Sweet toffee liquorice jelly. Chupa chups danish jelly beans caramels macaroon apple pie. Toffee gingerbread croissant fruitcake dragée'
   }
 
   render() {
     return(
-      <div>
-        <div>
-          Sweet toffee liquorice jelly. Chupa chups danish jelly beans caramels macaroon apple pie. Toffee gingerbread croissant fruitcake dragée.
-        </div>
-        <div>
-          <div>
-            {this.state.fundations.map(element => {
-              return (
-                <li key={element.name}>
-                  <div>
-                    <div>Zbiórka {element.name}</div>
-                    <div>Cel i misja: {element.task}</div>
-                  </div>
-                  <div>{element.needs}</div>
-                </li>
-              )
-            })}
-          </div>
-        </div>
-        <div>1</div>
-      </div>
+      <HelpSheet description={this.state.description} organization={this.state.fundations} class={this.state.class}/>
     )
   }
 }
