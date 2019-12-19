@@ -8,7 +8,7 @@ export function HelpSheet() {
         <div>
           <div>
             <div>Organizacja</div>
-            <div>Quis varius</div>
+            <div>Cel i misja: Quis varius</div>
           </div>
           <div>Egestas</div>
         </div>
