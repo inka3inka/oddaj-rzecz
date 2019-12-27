@@ -4,6 +4,7 @@ import {MainSection} from "./mainSection/MainSection";
 import {ColumnsContainer} from "./threeColumnsSection/ColumnsContainer";
 import {FourStepsSection} from "./fourStepsSection/FourStepsSection";
 import {AboutUs} from "./aboutUsSection/AboutUs";
+import {HelpSection} from "./aboutHelpSection/HelpSection";
 
 export function Home() {
   return (
@@ -13,6 +14,7 @@ export function Home() {
       <ColumnsContainer/>
       <FourStepsSection/>
       <AboutUs/>
+      <HelpSection />
     </>
   )
 }

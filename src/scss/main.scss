@@ -208,7 +208,6 @@ body {
 .fourSteps__element--higher {
   width: 100%;
   height: 37vh;
-  border: 1px solid black;
   background-color: $color-background-light;
   display: flex;
   flex-direction: row;
@@ -270,7 +269,7 @@ body {
 
 .aboutUs__container {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-color: $color-background-light;
   display: flex;
   flex-direction: row;
@@ -329,9 +328,126 @@ body {
   width: 50%;
   height: 100%;
   background-image: url('../assets/People.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
+
+//Help Section
+
+.helpSection__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-font-main;
+}
+
+.helpSection__options {
+  width: 50%;
+  height: 35vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.helpSection__options--header {
+  height: 50%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &::after {
+    @include decoration;
+    top: 80%;
+    left: 10%;
+  }
+}
+
+.helpSection__organizationsButtons {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.helpSection__organizationsButton {
+  width: 30%;
+  height: 8vh;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 2.1vw;
+}
+
+.helpSheet__container {
+  width: 80vw;
+  margin: 0 auto;
+  height: 65vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.helpSheet__description {
+  width: 42%;
+  margin: 0 auto;
+  height: 25%;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6rem;
+  padding: 2.2vh 0;
+}
+
+.organization__container {
+  width: 100%;
+  height: 35vh;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 5vw 3vh;
+    position: relative;
+
+    .organization__about {
+      width: 70%;
+      height: 33%;
+      padding-right: 5vw;
+
+      .organization__about--name {
+        font-size: 1.4rem;
+        font-weight: lighter;
+      }
+
+      .organization__about--task {
+        font-size: .9rem;
+        line-height: 1.5rem;
+      }
+    }
+
+    .organization__needs {
+      width: 30%;
+      font-size: .9rem;
+      padding-top: 1.5vh;
+      text-align: right;
+    }
+
+    &::after {
+      content: '';
+      width: 88%;
+      height: 1px;
+      background-color: $color-font-main;
+      position: absolute;
+      top: 90%;
+    }
+
+  }
+}
+
 
 
 
