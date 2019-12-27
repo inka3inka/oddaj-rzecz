@@ -6,7 +6,7 @@ import {HelpCollectors} from "./HelpCollectors";
 
 export class HelpSection extends Component {
   state = {
-    toShow: 'fundations'
+    toShow: 'collectors'
   }
 
   showFundations = () => {
@@ -54,8 +54,8 @@ export class HelpSection extends Component {
             <div className="helpSection__organizationsButton" onClick={this.showCollectors}>Lokalnym zbiórkom</div>
           </div>
         </div>
-        <div className="helpSheet__container">
-          <ul>
+        <div>
+          <ul className="helpSheet__container">
           {elementToShow}
           </ul>
         </div>

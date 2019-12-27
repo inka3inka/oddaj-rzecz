@@ -36,7 +36,7 @@ export class HelpOrganizations extends Component {
         needs: ['arcu', 'molestie', 'lobortis']
       }
     ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque, enim vel rutrum pretium, eros sem viverra metus, id congue nisi est eu turpis. Vestibulum sit amet libero eu ante malesuada dapibus at quis nulla'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque, enim vel rutrum pretium, eros sem viverra metus, id congue nisi est eu turpis. Vestibulum sit amet libero'
   }
 
   render() {
