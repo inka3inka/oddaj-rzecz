@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpOrganizations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpOrganizations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="443" column="16" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="16" />
+            <state relative-caret-position="7638">
+              <caret line="402" column="1" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -43,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="1045">
               <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
               <folding>
                 <element signature="e#82#130#0" expanded="true" />
@@ -52,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="209">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -164,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpCollectors.js" />
         <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js" />
         <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpOrganizations.js" />
-        <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js" />
       </list>
     </option>
   </component>
@@ -180,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,12 +286,13 @@
       <workItem from="1577467594740" duration="5000" />
       <workItem from="1577467622732" duration="1031000" />
       <workItem from="1577468684515" duration="822000" />
-      <workItem from="1577469865375" duration="1625000" />
+      <workItem from="1577469865375" duration="5103000" />
+      <workItem from="1577556039337" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55146000" />
+    <option name="totallyTimeSpent" value="59071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -452,6 +450,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7638">
+          <caret line="402" column="1" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="e#82#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpFundations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -508,25 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpSheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
-          <folding>
-            <element signature="e#82#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="443" column="16" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
