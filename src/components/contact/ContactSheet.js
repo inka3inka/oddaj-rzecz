@@ -2,6 +2,8 @@ import React from 'react';
 
 export function ContactSheet() {
   return(
+    <>
+      <div className="contactSheet__image"/>
     <div>
       <div>Skontaktuj się z nami</div>
       <div>
@@ -17,5 +19,6 @@ export function ContactSheet() {
         <button>Wyślij</button>
       </div>
     </div>
+    </>
   )
 }
