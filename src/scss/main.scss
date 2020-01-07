@@ -56,6 +56,39 @@ body {
   }
 }
 
+//Top Arrow
+
+.return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-decoration: none;
+  border-radius: 35px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+
+.return-to-top-arrow {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 29%;
+  top: 20%;
+  font-size: 30px;
+
+  &:hover {
+    color: #fff;
+    top: 5px;
+  }
+}
+
 //Main section
 
 .mainSection__container {
