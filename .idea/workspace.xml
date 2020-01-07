@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_mixins.scss" afterDir="false" />
-    </list>
+    <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,29 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7068">
-              <caret line="549" column="20" selection-start-line="549" selection-start-column="20" selection-end-line="549" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/settings/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNav.js">
+        <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -47,19 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNavElement.js">
+        <entry file="file://$PROJECT_DIR$/src/scss/settings/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/Header.js">
+        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="146">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -100,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/components/header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/header/HeaderLog.js" />
         <option value="$PROJECT_DIR$/src/components/mainSection/MainSection.ts" />
-        <option value="$PROJECT_DIR$/src/components/mainSection/MainSection.js" />
         <option value="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnsContainer.js" />
         <option value="$PROJECT_DIR$/src/components/threeColumnsSection/ColumnElement.js" />
         <option value="$PROJECT_DIR$/src/components/fourStepsSection/FourStepsTile.js" />
@@ -111,13 +98,14 @@
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/components/contact/ContactSheet.js" />
-        <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/components/aboutHelpSection/HelpSection.js" />
         <option value="$PROJECT_DIR$/src/components/aboutUsSection/AboutUs.js" />
         <option value="$PROJECT_DIR$/src/components/contact/ContactSection.js" />
-        <option value="$PROJECT_DIR$/src/components/header/HeaderNav.js" />
         <option value="$PROJECT_DIR$/src/components/fourStepsSection/FourStepsSection.js" />
         <option value="$PROJECT_DIR$/src/scss/settings/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/components/header/HeaderNav.js" />
+        <option value="$PROJECT_DIR$/src/components/mainSection/MainSection.js" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -156,7 +144,7 @@
               <item name="oddaj-rzecz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="mainSection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oddaj-rzecz" type="b2602c69:ProjectViewProjectNode" />
@@ -232,15 +220,16 @@
       <workItem from="1578046582062" duration="1742000" />
       <workItem from="1578312273889" duration="4348000" />
       <workItem from="1578420940324" duration="4787000" />
-      <workItem from="1578426750221" duration="267000" />
+      <workItem from="1578426750221" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70215000" />
+    <option name="totallyTimeSpent" value="70587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,16 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -458,13 +437,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNavElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -478,6 +450,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/settings/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -488,10 +467,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNavElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/HeaderNav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="146">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mainSection/MainSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -500,15 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7068">
-          <caret line="549" column="20" selection-start-line="549" selection-start-column="20" selection-end-line="549" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/settings/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
