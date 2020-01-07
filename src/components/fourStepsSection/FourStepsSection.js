@@ -4,7 +4,7 @@ import {FourStepsTile} from "./FourStepsTile";
 
 export function FourStepsSection() {
   return (
-    <div className="fourSteps__container">
+    <div className="fourSteps__container" id="fourSteps">
       <div className="fourSteps__element--standard">
         <p>Wystarczą 4 proste kroki</p>
       </div>
