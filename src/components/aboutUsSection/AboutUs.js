@@ -2,7 +2,7 @@ import React from 'react';
 
 export function AboutUs() {
   return (
-    <div className="aboutUs__container">
+    <div className="aboutUs__container" id="aboutUs">
       <div className="aboutUs__element--text">
         <div className="element--text--header">
           O nas
