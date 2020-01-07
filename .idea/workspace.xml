@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_mixins.scss" afterDir="false" />
-    </list>
+    <list default="true" id="96824763-580b-4b4c-8258-2e704d1bfc11" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="539" column="13" lean-forward="true" selection-start-line="539" selection-start-column="13" selection-end-line="539" selection-end-column="13" />
+            <state relative-caret-position="229">
+              <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
         </entry>
@@ -258,12 +253,12 @@
       <workItem from="1577556039337" duration="447000" />
       <workItem from="1578046582062" duration="1742000" />
       <workItem from="1578312273889" duration="4348000" />
-      <workItem from="1578420940324" duration="1634000" />
+      <workItem from="1578420940324" duration="1941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66795000" />
+    <option name="totallyTimeSpent" value="67102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -533,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="539" column="13" lean-forward="true" selection-start-line="539" selection-start-column="13" selection-end-line="539" selection-end-column="13" />
+        <state relative-caret-position="229">
+          <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
         </state>
       </provider>
     </entry>
