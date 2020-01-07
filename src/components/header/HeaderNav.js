@@ -5,7 +5,16 @@ import {Link, animateScroll as scroll} from "react-scroll";
 export function HeaderNav() {
   return (
     <div className="header__container__elements__nav">
-      <HeaderNavElement elementName="Start"/>
+      <Link
+        activeClass="active"
+        to="mainSection"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration= {500}
+      >
+        <HeaderNavElement elementName="Start"/>
+      </Link>
       <Link
         activeClass="active"
         to="fourSteps"
