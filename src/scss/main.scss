@@ -117,7 +117,7 @@ body {
   justify-content: space-around;
 
   div {
-    @include giveThings;
+    @include buttonStyle;
 
     a {
       @include linkStyle;
@@ -197,7 +197,7 @@ body {
     position: absolute;
     top: 5%;
     left: 17%;
-    @include giveThings;
+    @include buttonStyle;
 
     a {
       @include linkStyle;
@@ -474,7 +474,6 @@ body {
 
 .contactSheet__text {
   width: 40%;
-  height: 100%;
   margin-top: 20vh;
   text-align: center;
 }
@@ -495,13 +494,6 @@ body {
 
 .contactSheet__text--form {
   margin-top: 15vh;
-}
-
-.contactSheet__form--information {
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-  margin: 0 auto;
 
   p {
     display: flex;
@@ -510,18 +502,52 @@ body {
     text-align: left;
     margin-right: 1vw;
     line-height: 3rem;
+    font-size: .9rem;
 
     input {
-      border-top: none;
-      border-right: none;
-      border-left: none;
-      border-bottom: 1.5px solid $color-font-log;
-      font-size: 1rem;
+      @include formText;
 
       &::placeholder {
         color: $color-font-placeholder;
       }
     }
+  }
+}
+
+.contactSheet__form--information {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contactSheet__form--message {
+  width: 70%;
+  margin: 0 auto;
+
+  textarea {
+    width: 100%;
+    height: 10vh;
+    @include formText;
+
+    &::placeholder {
+      color: $color-font-placeholder;
+    }
+  }
+}
+
+.contactSheet__form--sendButton {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+
+  div {
+    @include buttonStyle;
+    width: 2.5vw;
+    height: 3vh;
+    margin-right: 0;
+    font-size: 1rem;
   }
 }
 

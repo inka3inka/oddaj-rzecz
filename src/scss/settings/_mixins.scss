@@ -1,4 +1,4 @@
-@mixin giveThings {
+@mixin buttonStyle {
   border: 1px solid $color-font-log;
   width: 11vw;
   height: 10vh;
@@ -41,4 +41,13 @@
     text-decoration: none;
     border: 1px solid $color-focus;
   }
+}
+
+@mixin formText {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1.5px solid $color-font-log;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
