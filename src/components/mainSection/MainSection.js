@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export function MainSection() {
   return (
-    <div className="mainSection__container">
+    <div className="mainSection__container" id="mainSection">
       <div className="mainSection__container__element__picture">
         <div className="mainSection__picture"/>
       </div>

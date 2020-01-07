@@ -43,7 +43,7 @@ export class HelpSection extends Component {
 
 
     return (
-      <div className="helpSection__container">
+      <div className="helpSection__container" id="helpActivity">
         <div className="helpSection__options">
           <div className="helpSection__options--header">
             Komu pomagamy?

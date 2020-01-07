@@ -4,7 +4,7 @@ import {ContactSheet} from "./ContactSheet";
 
 export function ContactSection() {
   return(
-    <div className="contact__container">
+    <div className="contact__container" id="contactUs">
       <ContactSheet />
       <Footer />
     </div>
